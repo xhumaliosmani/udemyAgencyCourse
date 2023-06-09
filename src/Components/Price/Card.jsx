@@ -13,7 +13,7 @@ const Card = ({ standOutBg, marginMiddle, Package, Price, image,Feature1,Feature
         className="w-20 mx-auto mt-[-3rem] bg-white rounded-md"
       />
       <h2 className="text-2xl font-bold text-center">{Package}</h2>
-      <p className="py-2 border-b mx-8 mt-8 flex justify-between">{Price}</p>
+      <p className="py-2 mx-8 mb-6 -mt-2 flex justify-center text-3xl font-bold">{Price}</p>
       <div className="text-center font-medium">
         <p className="py-2 border-b mx-8 flex justify-between">
           {Feature1}

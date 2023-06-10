@@ -5,6 +5,7 @@ import Features from "../../../Features/Features";
 import CardComponent from "../../Price/CardComponent";
 import CallToAction from "../../CallToAction/CallToAction";
 import Review from "../../Review/Review";
+import Footer from "../../Footer/Footer";
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
       <CardComponent/>
       <CallToAction/>
       <Review/>
+      <Footer/>
     </>
   );
 };

@@ -3,6 +3,7 @@ import Navbar from "../../Navigation/Navbar";
 import Herosection from "../../Herosection/Herosection";
 import Features from "../../../Features/Features";
 import CardComponent from "../../Price/CardComponent";
+import CallToAction from "../../CallToAction/CallToAction";
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
       <Herosection/>
       <Features/>
       <CardComponent/>
+      <CallToAction/>
     </>
   );
 };
